@@ -1,0 +1,10 @@
+C:\ITcollege\2017 sugis\Csharp\kodutoo1\kodutoo1\bin\Debug\netcoreapp1.1\kodutoo1.deps.json
+C:\ITcollege\2017 sugis\Csharp\kodutoo1\kodutoo1\bin\Debug\netcoreapp1.1\kodutoo1.runtimeconfig.json
+C:\ITcollege\2017 sugis\Csharp\kodutoo1\kodutoo1\bin\Debug\netcoreapp1.1\kodutoo1.runtimeconfig.dev.json
+C:\ITcollege\2017 sugis\Csharp\kodutoo1\kodutoo1\bin\Debug\netcoreapp1.1\kodutoo1.dll
+C:\ITcollege\2017 sugis\Csharp\kodutoo1\kodutoo1\bin\Debug\netcoreapp1.1\kodutoo1.pdb
+C:\ITcollege\2017 sugis\Csharp\kodutoo1\kodutoo1\obj\Debug\netcoreapp1.1\kodutoo1.csprojResolveAssemblyReference.cache
+C:\ITcollege\2017 sugis\Csharp\kodutoo1\kodutoo1\obj\Debug\netcoreapp1.1\kodutoo1.csproj.CoreCompileInputs.cache
+C:\ITcollege\2017 sugis\Csharp\kodutoo1\kodutoo1\obj\Debug\netcoreapp1.1\kodutoo1.AssemblyInfo.cs
+C:\ITcollege\2017 sugis\Csharp\kodutoo1\kodutoo1\obj\Debug\netcoreapp1.1\kodutoo1.dll
+C:\ITcollege\2017 sugis\Csharp\kodutoo1\kodutoo1\obj\Debug\netcoreapp1.1\kodutoo1.pdb
