@@ -19,8 +19,8 @@ namespace kodutoo1
             int valik = kusiArv("Valige tegevus, sisestage number");
 
 
-            object day = null;
-            object nowDay = null;
+            //object day = null;
+            //object nowDay = null;
             switch (valik)
             {
                 case 1:
@@ -63,26 +63,45 @@ namespace kodutoo1
                     break;
                 case 6:
 
-                    var today = DateTime.Today;
-                    Console.WriteLine(today.ToString("d"));
+                 
                     
                     Console.WriteLine("Kirjutage kuupaev");
+                    string kuupaev = Console.ReadLine();
+                    // Console.WriteLine(DateTime.Now.Date.AddDays(-1).ToString("d"));
 
-                    if (today.ToString("d") == Console.ReadLine())
+                    // Console.WriteLine(DateTime.Now.Date.ToString("d"));
+                    
+
+
+                    if (kuupaev == DateTime.Now.Date.ToString("d"))
                     {
                         Console.WriteLine("Sisestatud ja reaalne kuupaev on samasugused");
-                    } else 
+                    } else if (kuupaev == DateTime.Now.Date.AddDays(-1).ToString("d"))
                     {
-                        Console.WriteLine("Sisestatud ja reaalne kuupaev ei ole samasugused");
-                        
+
+                        Console.WriteLine("Sisestatud paev oli eilne");
                     }
+                    else if (kuupaev == DateTime.Now.Date.AddDays(+1).ToString("d"))
+                    {
+                        Console.WriteLine("Sisestatud kuupaev homme");
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Viga");
+                    }
+
+
+
+
                     Console.ReadLine();
 
                     break;
             }
         }
 
-       
+        
+
 
         static int kusiArv(string tekst)
         {
@@ -138,11 +157,17 @@ namespace kodutoo1
             return tagurpidi;
         }
 
-        static void Date(DateTime thisDay)
+        static DateTime AnnaKuupaev(string kuupaev)
         {
-            DateTime day = DateTime.Today;
-            Console.WriteLine(day.ToString());
-            Console.WriteLine("Hetkel: " + day);
+            bool kasOnnestus;
+            DateTime number;
+            do
+            {
+                Console.WriteLine(kuupaev);
+                //string a = Console.ReadLine();
+                kasOnnestus = DateTime.TryParse(kuupaev, out number);
+            } while (kasOnnestus == false);
+            return number;
         }
 
     }
